@@ -1,0 +1,154 @@
+/*****BASE-STYLES*****/
+@font-face{
+	font-family: wisdom;
+	src: url(../font/wisdom.otf) format('opentype');
+}
+
+body {
+	font-family: 'Montserrat';
+}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+h1, h2, h3{
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	font-weight: 700;
+}
+h1{
+	color: #2b2b2b;
+	font-size: 30px
+}
+h2{
+	font-size: 18px;
+	font-weight: bold;
+	color: #77a466;
+}
+h3{
+ 	font-size: 12px;
+ 	font-weight: bold;
+ 	line-height: 25px;
+ 	margin-left: 20px;
+ }
+p{
+	font-size: 16px;
+	line-height: 25px;
+	padding: 0 30px;
+	text-align: left;
+}
+header {
+	height: 110px;
+	margin: 0 auto;
+}
+header h1{
+	float:left;
+	margin:0;
+	padding: 38px 38px 38px 0;
+}
+h1 span{
+	color: #669966;
+}
+header nav {
+	float: right;
+	padding: 46px 0 0 0;
+}
+header nav ul {
+	margin: 0;
+	padding: 0;	
+}
+header nav ul li {
+    font-size: 14px;
+	font-family: 'Montserrat';
+	line-height: 23px;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: inline;
+    padding: 28px;
+}
+header nav ul li a{ 
+    color: #669966;
+    text-decoration: none;
+}
+img{
+	height: auto;
+	float: left;
+	border-top: 3px solid #77a466;
+	border-bottom: 3px solid #77a466;
+}
+.top-section, 
+.bottom-section{
+	margin: 0 20 auto 20;
+	clear: both;
+}
+.about {
+	height: auto;
+	float: left;
+}
+.about h3{
+	text-align: left;
+	padding: 5px 0;
+	color: #77a466;
+}
+.about p{
+	text-align:left;
+	padding: 0;
+	font-size: 16px;
+	line-height: 25px;
+}
+.section-one,
+.section-two,
+.section-three{
+	width: 399px;
+	height: 210px;
+	float: left;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	padding-bottom: 10px;
+}
+.section-one h3{
+	padding: 10px 10px 10px 0;
+	margin-left: 0;
+}
+.section-two{
+	border-left: 1px solid #dedbdc;
+	border-right: 1px solid #dedbdc;
+}
+.section-two h3,
+.section-three h3{
+	padding: 10px;
+}
+.section-two p{
+	line-height: 21px;
+}
+.section-three p{
+	line-height: 24px;
+}
+.menu{
+	padding: 0;
+	list-style: none;
+}
+.menu li{
+	list-style: none;
+	font-size: 16px;
+	line-height: 18px;
+	color: #77a466;
+	padding: 13px 0px 13px 0px;
+}
+footer{
+	clear: both;
+	padding: 28.5px 0 28.5px 0;
+}
+footer h4{
+	font-family: 'Montserrat';
+	font-size: 16px;
+	text-transform: uppercase;
+	text-align: center;
+	width: 100%;
+}
+footer span {
+	font-family: wisdom;
+	font-style: italic;
+	color: #77a466;
+	text-transform: lowercase;
+}
